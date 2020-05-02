@@ -1,0 +1,12 @@
+{
+    "manifest_version":2,
+    "version":"1", 
+    "name":"Track your attendance",
+    "description":"Self-explanatory",
+    "permissions": ["declarativeContent", "storage", "activeTab"],
+    "browser_action":{
+        "default_icon":"icon.png",
+        "default_popup":"popup.html",
+        "default_title":"HELLO WORLD"
+    }
+}
